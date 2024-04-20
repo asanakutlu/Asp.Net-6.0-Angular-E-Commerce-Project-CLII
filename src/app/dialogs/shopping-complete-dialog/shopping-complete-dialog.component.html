@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Stop</h1>
+<div mat-dialog-content>
+  <p>Are you sure you want to complete the transaction?</p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="close()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial (click)="complete()">Yes</button>
+</div>
