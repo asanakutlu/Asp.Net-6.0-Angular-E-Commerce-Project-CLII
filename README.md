@@ -8,6 +8,7 @@ Infrastructure Katmanı
 Esasında Persistence katmanı bu katmanla bütünleşik olarak kullanılmaktadır.Sadece persistence den farklı olarak veritabanının dışındaki operasyonları/servisleri/işlemleri. yürüttüğümüz katmandır Genellikle sisteme eklenecek dış/external yapılanmalar bu katmanda dahil edilir. Haliyle bu katmanda diğer en dış katman olduğu için herhangi bir katman tarafından bağlılık olmamalıdır.
 Presentation Katmanı
 Kullanıcının uygulama ile iletişime geçtiği katmandır. WEP APP, WEP API, MVC
+
 2-) Veritabanı olarak Postgresql veritanı kullanıldı.
 3-) Repository Design Pattern kullanıldı veritabanı sorumluluğunu üstlenen sınıfı tasarlarken bir standart üzerine oturtmayı hedefleyen ve Entity Framework gibi ORM(Object Relational Mapping) araçlarıyla kombine edilerek sorgusal anlamda az sayıda operatif metotla yüksek seviyede veri erişim imkanı sağlayan bir strateji üzerine kurulu tasarım desenidir.
 4-) Frontent tarafnı Angular ile geliştirildi. Admin ve Ui katmanları geliştirildi.
